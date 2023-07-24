@@ -1,4 +1,5 @@
 from mininet.net import Mininet
+from mininet.node import RemoteController
 from mininet.node import Controller, OVSSwitch
 from mininet.cli import CLI
 from mininet.log import setLogLevel
