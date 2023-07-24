@@ -8,7 +8,7 @@ import os
 
 def create_topology():
     net = Mininet(controller=Controller, switch=OVSSwitch, link=TCLink)
-    net.addController('c0', controller=RemoteController, ip='172.28.121.175', port=6633)
+    net.addController('c0', controller=RemoteController, ip='IP DA MINHA REDE', port=6633)
 
     # Criação dos switches
     s1 = net.addSwitch('s1', protocols='OpenFlow13')
